@@ -1,0 +1,31 @@
+{% extends '@App/master_layout.html.twig' %}
+
+{% block stylesheets %}
+
+    {{ parent() }}
+
+    {% stylesheets
+    "@AppBundle/Resources/public/front_office/css/index.css"
+    output="bundles/app/css/front_office/index.css" %}
+    {% endstylesheets %}
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="vte-wrapper">
+        <div class="vte-container">
+            hi
+
+            {% for number in numbers %}
+                {{ number }}
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+{% endblock %}

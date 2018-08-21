@@ -16,3 +16,12 @@
 /vendor/
 /web/bundles/
 .idea/workspace.xml
+
+.idea/ToanHocPytago.iml
+.idea/php.xml
+.idea/workspace.xml
+app/config/config.yml
+composer.json
+composer.lock
+vendors/
+

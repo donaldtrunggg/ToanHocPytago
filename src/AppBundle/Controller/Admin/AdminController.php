@@ -15,4 +15,20 @@ class AdminController extends Controller
   {
     return $this->render('@App/back_office/index.html.twig');
   }
+
+  /**
+   * @Route("/admin/blog", name="admin_blog_list")
+   */
+  public function indexBlogAction(Request $request)
+  {
+    return $this->render('@App/back_office/blog/index.html.twig');
+  }
+
+  /**
+   * @Route("/admin/blog/create", name="admin_blog_create")
+   */
+  public function createBlogAction(Request $request)
+  {
+    return $this->render('@App/back_office/blog/create.html.twig');
+  }
 }

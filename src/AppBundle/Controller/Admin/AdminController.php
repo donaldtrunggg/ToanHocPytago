@@ -2,6 +2,9 @@
 
 namespace AppBundle\Controller\Admin;
 
+use AppBundle\Form\BlogType;
+use AppBundle\Util\MessageUtil;
+use AppBundle\Util\ServiceUtil;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -13,6 +16,7 @@ class AdminController extends Controller
    */
   public function indexAction(Request $request)
   {
+    $a = $this->get(ServiceUtil::BLOG_SERVICE)->getAll();
     return $this->render('@App/back_office/index.html.twig');
   }
 
@@ -21,7 +25,11 @@ class AdminController extends Controller
    */
   public function indexBlogAction(Request $request)
   {
-    return $this->render('@App/back_office/blog/index.html.twig');
+    $blogs = $this->get(ServiceUtil::BLOG_SERVICE)->findByCriteria();
+
+    return $this->render('@App/back_office/blog/index.html.twig', array(
+      'blogs' => $blogs
+    ));
   }
 
   /**
@@ -29,6 +37,53 @@ class AdminController extends Controller
    */
   public function createBlogAction(Request $request)
   {
-    return $this->render('@App/back_office/blog/create.html.twig');
+    $form = $this->createForm(BlogType::class);
+    $form->handleRequest($request);
+
+    if ($form->isSubmitted() && $form->isValid()) {
+      $session = $request->getSession();
+
+      try {
+        $this->get(ServiceUtil::BLOG_SERVICE)->insert($form->getData());
+        $session->getFlashBag()->add(MessageUtil::SUCCESS_KEY, MessageUtil::SUCCESS_CREATE_STRING);
+        return $this->redirectToRoute('admin_blog_list');
+      } catch (\Exception $e) {
+        $session->getFlashBag()->add(MessageUtil::ERROR_KEY, $e->getMessage());
+      }
+    }
+
+    return $this->render('@App/back_office/blog/create.html.twig', array(
+      'form' => $form->createView()
+    ));
+  }
+
+  /**
+   * @Route("/admin/blog/update/{id}", name="admin_blog_update")
+   */
+  public function updateBlogAction(Request $request, $id)
+  {
+    $criteria = array(
+      'id' => $id
+    );
+
+    $blog = $this->get(ServiceUtil::BLOG_SERVICE)->findOneByCriteria($criteria);
+    $form = $this->createForm(BlogType::class, $blog);
+    $form->handleRequest($request);
+
+    if ($form->isSubmitted() && $form->isValid()) {
+      $session = $request->getSession();
+
+      try {
+        $this->get(ServiceUtil::BLOG_SERVICE)->update($form->getData());
+        $session->getFlashBag()->add(MessageUtil::SUCCESS_KEY, MessageUtil::SUCCESS_UPDATE_STRING);
+        return $this->redirectToRoute('admin_blog_list');
+      } catch (\Exception $e) {
+        $session->getFlashBag()->add(MessageUtil::ERROR_KEY, $e->getMessage());
+      }
+    }
+
+    return $this->render('@App/back_office/blog/create.html.twig', array(
+      'form' => $form->createView()
+    ));
   }
 }

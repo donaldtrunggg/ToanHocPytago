@@ -1,0 +1,7 @@
+{% set environment = app.environment %}
+
+{% if environment == 'dev' %}
+    <link rel="stylesheet" href="{{ asset_url }}?version={{ assets_version }}" />
+{% else %}
+    <link rel="stylesheet" href="/wow-cv{{ asset_url }}?version={{ assets_version }}" />
+{% endif %}

@@ -1,0 +1,10 @@
+services:
+    guzzle:
+        class: GuzzleHttp\Client
+    app.service:
+        class: AppBundle\Services\AppService
+        autowire: true
+        public: true
+    blog.service:
+        class: AppBundle\Services\BlogService
+        autowire: true

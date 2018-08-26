@@ -15,4 +15,11 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-.idea/workspace.xml
+.idea/ToanHocPytago.iml
+.idea/php.xml
+.idea/*
+app/config/config.yml
+composer.json
+composer.lock
+vendors/
+

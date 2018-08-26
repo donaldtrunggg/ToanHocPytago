@@ -1,0 +1,42 @@
+{% extends '@App/back_office/master_layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body_class %}nav-md{% endblock %}
+
+{% block body %}
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                {% include '@App/back_office/partials/sidebar.html.twig' %}
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    {% include '@App/back_office/partials/header.html.twig' %}
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            {% include '@App/back_office/partials/footer.html.twig' %}
+            <!-- /footer content -->
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
+

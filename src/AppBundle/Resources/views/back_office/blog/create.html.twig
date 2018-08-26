@@ -1,0 +1,98 @@
+{% extends '@App/back_office/partials/admin_layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets filter="scssphp"
+    "@AppBundle/Resources/public/back_office/vendors/google-code-prettify/bin/prettify.min.css"
+    "@AppBundle/Resources/public/back_office/vendors/select2/dist/css/select2.min.css"
+    "@AppBundle/Resources/public/back_office/vendors/switchery/dist/switchery.min.css"
+    "@AppBundle/Resources/public/back_office/vendors/starrr/dist/starrr.css"
+    "@AppBundle/Resources/public/back_office/css/lib/custom_tinymce.css"
+
+    output="bundles/app/back_office/css/blog/create.css" %}
+    {% include '@App/components/twig_css_asset.html.twig' %}
+    {% endstylesheets %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+                <h2>CREATE NEW BLOG</h2>
+                <div class="x_content">
+                    <br>
+                    {{ form_start(form, {'attr': {'class': 'form-horizontal form-label-left'}}) }}
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Title <span
+                                    class="required">*</span>
+                        </label>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            {{ form_widget(form.title, { 'attr': {'class': 'form-control col-md-7 col-xs-12', 'maxlength': 255 }}) }}
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Url <span
+                                    class="required">*</span>
+                        </label>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            {{ form_widget(form.url, { 'attr': {'class': 'form-control col-md-7 col-xs-12', 'maxlength': 255 }}) }}
+                        </div>
+                    </div>
+
+                    {{ form_widget(form.content, { 'attr': {'class': 'tinymce-text' }}) }}
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Status <span
+                                    class="required">*</span>
+                        </label>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            {{ form_widget(form.status) }}
+                        </div>
+                    </div>
+
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                            {{ form_widget(form.save, { 'attr': {'class': 'btn btn-success' }}) }}
+
+                            {#<button class="btn btn-primary" type="button">Cancel</button>#}
+                            {#<button class="btn btn-primary" type="reset">Reset</button>#}
+                            {#<button type="submit" class="btn btn-success">Submit</button>#}
+                        </div>
+                    </div>
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.7.12/tinymce.min.js"></script>
+
+    {% javascripts filter="?jsqueeze"
+    "@AppBundle/Resources/public/back_office/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/jquery.hotkeys/jquery.hotkeys.js"
+    "@AppBundle/Resources/public/back_office/vendors/google-code-prettify/src/prettify.js"
+    "@AppBundle/Resources/public/back_office/vendors/jquery.tagsinput/src/jquery.tagsinput.js"
+    "@AppBundle/Resources/public/back_office/vendors/switchery/dist/switchery.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/select2/dist/js/select2.full.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/parsleyjs/dist/parsley.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/autosize/dist/autosize.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"
+    "@AppBundle/Resources/public/back_office/vendors/starrr/dist/starrr.js"
+    "@AppBundle/Resources/public/back_office/js/lib/tinymce.js"
+
+    output="bundles/app/back_office/js/blog/create.js" %}
+    {% include '@App/components/twig_js_asset.html.twig' %}
+    {% endjavascripts %}
+{% endblock %}
+
+

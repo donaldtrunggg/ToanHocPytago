@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% block page_title %}Job Fair{% endblock %}</title>
+    <title>{% block page_title %}Toán học Pytago{% endblock %}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -29,12 +29,43 @@
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+            <link href="bundles/app/front_office/css/2835-layout.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/bookly-main.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/bootstrap.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/customer_profile.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/default.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/ecwd_popup.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/font-awesome.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/hg-mailchimp.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/intlTelInput.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/kl-bookly.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/kl-calendar.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/ladda.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/ladda2.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/picker.classic.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/picker.classic.date.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/picker.classic2.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/plhg-styles.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/print.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/style.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/style2.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/style3.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/styles.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/zn_dynamic.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/znb_frontend.css" rel="stylesheet">
+{#           
     {% block stylesheets %}
-
-    {% endblock %}
+      {% stylesheets filter="scssphp"
+      "@AppBundle/Resources/public/front_office/css/index.css"
+        output="bundles/app/front_office/css/index.css" %}
+        {% include '@App/components/twig_css_asset.html.twig' %}
+        {% endstylesheets %}
+    {% endblock %} #}
 
     <script>
-        {% block javascript_global_setting %}
+        {% block javascript_global_setting %} 
 
         {% endblock %}
     </script>
@@ -44,7 +75,7 @@
 
 </head>
 <body class="{% block body_class %}{% endblock %}" {% block body_attr %}{% endblock %}>
-
+{% include '@App/front_office/partials/header.html.twig' %}
 {% block body %}{% endblock %}
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -57,9 +88,28 @@
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-{% block javascripts %}
+<script src="bundles/app/front_office/js/bookly.js"></script>
+<script src="bundles/app/front_office/js/customer_profile.js"></script>
+<script src="bundles/app/front_office/js/hammer.min.js"></script>
+<script src="bundles/app/front_office/js/index.js"></script>
+<script src="bundles/app/front_office/js/intlTelInput.min.js"></script>
+<script src="bundles/app/front_office/js/jquery-migrate.min.js"></script>
+<script src="bundles/app/front_office/js/jquery.hammer.min.js"></script>
+<script src="bundles/app/front_office/js/jquery.js"></script>
+<script src="bundles/app/front_office/js/ladda.min.js"></script>
+{# <script src="bundles/app/front_office/js/picker.date.js"></script> #}
+{# <script src="bundles/app/front_office/js/picker.js"></script> #}
+<script src="bundles/app/front_office/js/script.js"></script>
+<script src="bundles/app/front_office/js/spin.min.js"></script>
 
-{% endblock %}
+
+{# {% block javascripts %}
+{% javascripts filter="?jsqueeze"
+   
+    output="bundles/app/front_office/js/index.js" %}
+    {% include '@App/components/twig_js_asset.html.twig' %}
+    {% endjavascripts %}
+{% endblock %} #}
 
 </body>
 </html>

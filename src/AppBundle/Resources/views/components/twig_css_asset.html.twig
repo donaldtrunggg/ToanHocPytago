@@ -1,5 +1,5 @@
 {% set environment = app.environment %}
-
+{% dump(asset_url) %}
 {% if environment == 'dev' %}
     <link rel="stylesheet" href="{{ asset_url }}?version={{ assets_version }}" />
 {% else %}

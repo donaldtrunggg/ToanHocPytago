@@ -48,23 +48,20 @@ h6,.h6-typography {
 }
 body{
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
-    ;
     font-size:13px;
     line-height:22px;
 }
 .site-footer {
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
-    ;
     font-size:13px;
     line-height:22px;
-    color:black;
 }
 body {
 }
 a {
 }
 a:focus,a:hover {
-    color:#205aa7;
+    color:#3FCE1A;
 }
 .element-scheme--light {
     color:#535353;
@@ -73,7 +70,7 @@ a:focus,a:hover {
     color:#000;
 }
 .element-scheme--light a:hover,.element-scheme--light .element-scheme__linkhv:hover {
-    color:#205aa7;
+    color:#3FCE1A;
 }
 .element-scheme--light .element-scheme__hdg1 {
      color:#323232 
@@ -401,23 +398,23 @@ body #page_wrapper ,body.boxed #page_wrapper {
 }
 .m_title,.text-custom,.text-custom-hover:hover,.text-custom-after:after,.text-custom-before:before,.text-custom-parent .text-custom-child,.text-custom-parent .text-custom-child-hov:hover,.text-custom-parent-hov:hover .text-custom-child,.text-custom-parent-act.active .text-custom-active,.text-custom-a>a,.btn-lined.lined-custom,.latest_posts--4.default-style .latest_posts-link:hover .latest_posts-readon,.grid-ibx__item:hover .grid-ibx__icon,.site-header .site-header .main-nav.mainnav--active-text > ul > .menu-item.active > a,.site-header .site-header .main-nav.mainnav--active-text > ul > .menu-item:hover > a,.site-header .site-header .main-nav.mainnav--active-text > ul > .menu-item > a:hover,.preloader-pulsating-circle,.preloader-material-circle,ul.colored-list[class*="list-style"] li:before,.woocommerce-MyAccount-navigation ul li.is-active a{
     /* color:#205aa7; */
-    color:#16f42c;
+    color:#3FCE1A;
 }
 .btn-lined.lined-custom:hover,#header .main-nav > ul > .menu-item.menuitem-highlight > a{
     /* color:#1a4886; */
-    color:#16f42c;
+    color:#3FCE1A;
 }
 .kl-main-bgcolor,.kl-main-bgcolor-after:after,.kl-main-bgcolor-before:before,.kl-main-bgcolor-hover:hover,.kl-main-bgcolor-parenthover:hover .kl-main-bgcolor-child{
     /* background-color:#205aa7; */
-    background-color:#16f42c;
+    background-color:#3FCE1A;
 }
 .main-nav.mainnav--active-bg > ul > .menu-item > a:before,.main-nav .zn_mega_container .menu-item a:not(.zn_mega_title):before,.main-nav ul .zn-mega-new-item,.social-icons.sc--normal .social-icons-item:hover,.kl-cart-button .glyphicon:after,.site-header.style7 .kl-cart-button .glyphicon:after,.site-header.style8 .site-header-bottom-wrapper .kl-cta-lined,.site-header.style9 .kl-cta-lined,.kl-cta-ribbon,.cart-container .buttons .button.wc-forward,.chaser-main-menu li.active > a{
     /* background-color:#205aa7; */
-    background-color:#16f42c;
+    background-color:#000;
 }
 .action_box,.action_box.style3:before,.action_box.style3 .action_box-inner:before,.btn.btn-fullcolor,.btn.btn-fullcolor:focus,.btn.btn-fullcolor.btn-skewed:before,.circle-text-box.style3 .wpk-circle-span,.circle-text-box.style2 .wpk-circle-span::before,.circle-text-box:not(.style3) .wpk-circle-span:after,.elm-social-icons.sc--normal .elm-sc-icon:hover,.elm-searchbox--normal .elm-searchbox__submit,.elm-searchbox--transparent .elm-searchbox__submit,.hover-box:hover,.how_to_shop .number,.image-boxes.image-boxes--4 .image-boxes-title:after,.kl-flex--classic .zn_simple_carousel-arr:hover,.kl-flex--modern .flex-underbar,.kl-blog-item-overlay-inner .kl-blog-item-overlay-more:hover,.kl-blog-related-post-link:after,.kl-ioscaption--style1 .more:before,.kl-ioscaption--style1 .more:after,.kl-ioscaption--style2 .more,.kl-ioscaption--style3.s3ext .main_title::before,.kl-ios-selectors-block.bullets2 .item.selected::before,.kl-ioscaption--style5 .klios-separator-line span,.zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::before,.zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::after,.zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-more,.zn-iosSl-caption.zn-iosSl-caption--style3.s3ext .zn-iosSl-mainTitle::before,.zn-iosSl-caption.zn-iosSl-caption--style5 .zn-iosSl-separatorLine span,.kl-ptfcarousel-carousel-arr:hover,.kl-ptfsortable-nav-link:hover,.kl-ptfsortable-nav-item.current .kl-ptfsortable-nav-link,.latest_posts3-post-date,.latest_posts--style4.kl-style-2 .latest_posts-elm-titlew,.latest_posts--style4.kl-style-2 .latest_posts-title:after,.latest_posts--style4.default-style .latest_posts-readon,.slick-active .slickBtn,.woocommerce ul.products.lt-offers-carousel .product-list-item:after,.media-container__link--style-borderanim1 > i,.nivo-directionNav a:hover,.pricing-table-element .plan-column.featured .subscription-price .inner-cell,.process_steps--style1 .process_steps__intro,.process_steps--style2 .process_steps__intro,.process_steps--style2 .process_steps__intro:before,.recentwork_carousel--1 .recentwork_carousel__bg,.recentwork_carousel--2 .recentwork_carousel__title:after,.recentwork_carousel--2 .recentwork_carousel__cat,.recentwork_carousel_v2 .recentwork_carousel__plus,.recentwork_carousel_v3 .btn::before,.recentwork_carousel_v3 .recentwork_carousel__cat,.timeline-box:hover .timeline-box-icon,.title_circle,.title_circle:before,.services_box--classic:hover .services_box__icon,.stepbox2-box--ok:before,.stepbox2-box--ok:after,.stepbox2-box--ok,.stepbox3-content:before,.stepbox4-number:before,.tbk--color-theme.tbk-symbol--line .tbk__symbol span,.tbk--color-theme.tbk-symbol--line_border .tbk__symbol span,.th-wowslider a.ws_next:hover,.th-wowslider a.ws_prev:hover,.zn-acc--style4 .acc-title,.zn-acc--style4 .acc-tgg-button .acc-icon:before,.zn-acc--style3 .acc-tgg-button:before,.zn_badge_sale,.zn_badge_sale:after,.elm-cmlist.elm-cmlist--v2 a:before,.elm-cmlist.elm-cmlist--v3ext a:before,.elm-custommenu--dd .elm-custommenu-pick,.shop-features .shop-feature:hover,.feature_box.style3 .box:hover,.services_box_element:hover .box .icon,.elm-social-icons.sc--normal .elm-sc-link:hover .elm-sc-icon{
     /* background-color:#205aa7; */
-    background-color:#16f42c;
+    background-color:#3FCE1A;
 }
 .kl-ioscaption--style4 .more:before,.zn-iosSl-caption.zn-iosSl-caption--style4 .zn-iosSl-more::before {
      background:rgba(32,90,167,0.7) 
@@ -548,7 +545,7 @@ body #page_wrapper ,body.boxed #page_wrapper {
 }
 .main-nav.mainnav--active-bg > ul > .menu-item.active > a:before, .main-nav.mainnav--active-bg > ul > .menu-item > a:hover:before, .main-nav.mainnav--active-bg > ul > .menu-item:hover > a:before {
     /* background-color:#205aa7; */
-    background-color:#16f42c;
+    /* background-color:#16f42c; */
 }
 .main-nav ul ul.sub-menu .menu-item a, .main-nav .zn_mega_container .menu-item a {
     font-family:Open Sans;

@@ -10,9 +10,6 @@ body,h1,h2,h3,h4,h5,h6{
 h1,h2,h3,h4,h5,h6{
     font-weight:700
 }
-p{
-    margin:0 0 20px
-}
 iframe{
     border:0
 }
@@ -5573,8 +5570,8 @@ ul.topnav{
     position:absolute;
     width:100%;
     background:rgba(0,0,0,.5);
-    height: 200px;
-    z-index:3
+    height: 'auto';
+    z-index: 3
 }
 @media (max-width:767px){
     .site-header{
@@ -6363,7 +6360,7 @@ ul.topnav{
     }
 }
 .site-header.style12.headerstyle--default{
-    background:#fff;
+    background:#00d300;
     box-shadow:0 0 5px rgba(0,0,0,.25)
 }
 @media (min-width:768px){
@@ -7295,10 +7292,10 @@ ul.topnav{
 }
 .site-footer{
     background:#2f2f2f;
-    padding:60px 0 20px;
+    padding-top:60px;
     color:#d5d5d5;
     border-top:4px solid #fff;
-    position:relative
+    position:relative;
 }
 .site-footer a{
     color:#fff

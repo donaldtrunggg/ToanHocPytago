@@ -1,69 +1,14 @@
-{# color: #6DCB43 #}
-<header style="display:flex; flex-direction:row; justify-content:center; width:100%; max-height: 300px">
-    {# logo #}
-    <div style="display:flex; flex-direction:column; background-color: #6DCB43; margin:10px">
-        <div style="flex:8">
-            <div id="logo-container" class="logo-container logosize--yes zn-original-logo">
-                <!-- Logo -->
-                <h1 class='site-logo logo' id='logo'>
-                    <a href='' class='site-logo-anch'>
-                        <img class="logo-img site-logo-img" 
-                            src="bundles/app/front_office/images/logo.png" 
-                            alt="Toán học Pytago" title="Toán học Pytago"/>
-                    </a>
-                </h1>
-            </div>
-        </div>
-        <div style="flex:2; background-color: #000;">
-            <div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-                <!-- responsive menu -->
-                <div class="zn-res-menuwrapper">
-                    <a href="#" class="zn-res-trigger zn-menuBurger zn-menuBurger--3--s zn-menuBurger--anim1" id="zn-res-trigger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                </div><!-- end responsive menu -->
-                <div id="main-menu" class="main-nav mainnav--overlay mainnav--active-bg mainnav--pointer-dash nav-mm--light zn_mega_wrapper ">
-                    <ul id="menu-main-menu-pmp" class="main-menu main-menu-nav zn_mega_menu ">
-                        <li id="menu-item-3282" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3282 active  main-menu-item-top  menu-item-even menu-item-depth-0">
-                            <a href="" class=" main-menu-link main-menu-link-top"><span>GIỚI THIỆU</span></a>
-                        </li>
-                        <li id="menu-item-10738" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-10738  main-menu-item-top  menu-item-even menu-item-depth-0">
-                            <a href="" class=" main-menu-link main-menu-link-top"><span>BLOG</span></a></li>
-                        <li id="menu-item-10649" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10649  main-menu-item-top  menu-item-even menu-item-depth-0">
-                            <a href="" class=" main-menu-link main-menu-link-top"><span>TÀI LIỆU</span></a>
-                        </li>
-                        <li id="menu-item-11622" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11622  main-menu-item-top  menu-item-even menu-item-depth-0">
-                            <a href="" class=" main-menu-link main-menu-link-top"><span>TÂM SỰ</span></a>
-                        </li>
-                        {# <li id="menu-item-11492" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11492  main-menu-item-top  menu-item-even menu-item-depth-0">
-                            <a href="" class=" main-menu-link main-menu-link-top"><span>TÀI LIỆU</span></a>
-                            <ul class="sub-menu clearfix">
-                                <li id="menu-item-11733" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-11733  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="https://study.anhngupmp.edu.vn" class=" main-menu-link main-menu-link-sub"><span>Tài liệu học viên</span></a></li>
-                                <li id="menu-item-10600" class="main-menu-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10600  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="https://anhngupmp.edu.vn/category/goc-hoc-tap" class=" main-menu-link main-menu-link-sub"><span>Chia sẻ kiến thức</span></a></li>
-                                <li id="menu-item-11673" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-11673  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="https://www.youtube.com/watch?v=W2QBAiT4B_o&#038;list=PLeq9KzPj5hMARu_W3-8MNisj1LPtri186" class=" main-menu-link main-menu-link-sub"><span>Video Giải đề TOEIC 2018</span></a></li>
-                                <li id="menu-item-11365" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-11365  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="https://anhngupmp.edu.vn/hoc-kem-hoc-bu-tai-anh-ngu-pmp" class=" main-menu-link main-menu-link-sub"><span>Đăng ký học bù &#8211; học kèm</span></a></li>
-                            </ul>
-                        </li> #}
-                    </ul>
-                </div>		
-            </div>
-        </div>
-    </div>
-
-    {# slogan #}
-    {# <div style="flex:1">
-        <div id="logo-container" class="logo-container logosize--yes zn-original-logo">
-            <!-- Logo -->
-            <h1 class='site-logo logo' id='logo'>
-                <a href='' class='site-logo-anch'>
-                    <img class="logo-img site-logo-img" 
-                        src="bundles/app/front_office/images/slogan.png" 
-                        alt="Toán học Pytago" title="Toán học Pytago" 
-                        style="padding:10px"/>
-                </a>
-            </h1>
-        </div>
-    </div> #}
+<header id="header">
+    <a class="logo" href="index.html">Toán học Pytago</a>
+    <nav>
+        <a href="#menu">Menu</a>
+    </nav>
 </header>
+
+<nav id="menu">
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="elements.html">Elements</a></li>
+        <li><a href="generic.html">Generic</a></li>
+    </ul>
+</nav>

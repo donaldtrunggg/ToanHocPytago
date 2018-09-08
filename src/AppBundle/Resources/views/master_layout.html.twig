@@ -6,13 +6,6 @@
     <title>{% block page_title %}Toán học Pytago{% endblock %}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
     <!-- Ionicons -->
@@ -31,32 +24,8 @@
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-            <link href="bundles/app/front_office/css/2835-layout.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/bookly-main.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/bootstrap.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/customer_profile.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/default.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ecwd_popup.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/font-awesome.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/hg-mailchimp.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/intlTelInput.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/kl-bookly.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/kl-calendar.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ladda.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ladda2.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic.date.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic2.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/plhg-styles.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/print.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style2.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style3.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/styles.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/zn_dynamic.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/znb_frontend.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/font-awesome.min.css" rel="stylesheet">
+            <link href="bundles/app/front_office/css/main.css" rel="stylesheet">
 {#           
     {% block stylesheets %}
       {% stylesheets filter="scssphp"
@@ -77,35 +46,16 @@
 
 </head>
 <body class="{% block body_class %}{% endblock %}" {% block body_attr %}{% endblock %}>
-{% include '@App/front_office/partials/header.html.twig' %}
+{% include '@App/front_office/partials/header2.html.twig' %}
 {% include '@App/front_office/partials/content.html.twig' %}
-{% include '@App/front_office/partials/introduction.html.twig' %}
-{% include '@App/front_office/partials/footer.html.twig' %}
+{% include '@App/front_office/partials/footer2.html.twig' %}
 {% block body %}{% endblock %}
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
-
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-<script src="bundles/app/front_office/js/bookly.js"></script>
-<script src="bundles/app/front_office/js/customer_profile.js"></script>
-<script src="bundles/app/front_office/js/hammer.min.js"></script>
-<script src="bundles/app/front_office/js/index.js"></script>
-<script src="bundles/app/front_office/js/intlTelInput.min.js"></script>
-<script src="bundles/app/front_office/js/jquery-migrate.min.js"></script>
-<script src="bundles/app/front_office/js/jquery.hammer.min.js"></script>
-<script src="bundles/app/front_office/js/jquery.js"></script>
-<script src="bundles/app/front_office/js/ladda.min.js"></script>
-{# <script src="bundles/app/front_office/js/picker.date.js"></script> #}
-{# <script src="bundles/app/front_office/js/picker.js"></script> #}
-<script src="bundles/app/front_office/js/script.js"></script>
-<script src="bundles/app/front_office/js/spin.min.js"></script>
+<script src="bundles/app/front_office/js/jquery.min.js"></script>
+<script src="bundles/app/front_office/js/browser.min.js"></script>
+<script src="bundles/app/front_office/js/breakpoints.min.js"></script>
+<script src="bundles/app/front_office/js/util.js"></script>
+<script src="bundles/app/front_office/js/main.js"></script>
 {# ?s #}
 
 {# {% block javascripts %}

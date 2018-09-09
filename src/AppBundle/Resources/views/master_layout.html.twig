@@ -6,7 +6,7 @@
     <title>{% block page_title %}Toán học Pytago{% endblock %}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
     <!-- Ionicons -->
     {#<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">#}
@@ -24,19 +24,19 @@
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-            <link href="bundles/app/front_office/css/font-awesome.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/main.css" rel="stylesheet">
-{#           
-    {% block stylesheets %}
-      {% stylesheets filter="scssphp"
-      "@AppBundle/Resources/public/front_office/css/index.css"
-        output="bundles/app/front_office/css/index.css" %}
-        {% include '@App/components/twig_css_asset.html.twig' %}
-        {% endstylesheets %}
-    {% endblock %} #}
+    <link href="bundles/app/front_office/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/main.css" rel="stylesheet">
+    {#
+        {% block stylesheets %}
+          {% stylesheets filter="scssphp"
+          "@AppBundle/Resources/public/front_office/css/index.css"
+            output="bundles/app/front_office/css/index.css" %}
+            {% include '@App/components/twig_css_asset.html.twig' %}
+            {% endstylesheets %}
+        {% endblock %} #}
 
     <script>
-        {% block javascript_global_setting %} 
+        {% block javascript_global_setting %}
 
         {% endblock %}
     </script>
@@ -58,13 +58,24 @@
 <script src="bundles/app/front_office/js/main.js"></script>
 {# ?s #}
 
-{# {% block javascripts %}
-{% javascripts filter="?jsqueeze"
-   
+{% block javascripts %}
+    {% javascripts filter="?jsqueeze"
+    "@AppBundle/Resources/public/front_office/js/bookly.js"
+    "@AppBundle/Resources/public/front_office/js/customer_profile.js"
+    "@AppBundle/Resources/public/front_office/js/hammer.min.js"
+    "@AppBundle/Resources/public/front_office/js/index.js"
+    "@AppBundle/Resources/public/front_office/js/intlTelInput.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery-migrate.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery.hammer.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery.js"
+    "@AppBundle/Resources/public/front_office/js/ladda.min.js"
+    "@AppBundle/Resources/public/front_office/js/script.js"
+    "@AppBundle/Resources/public/front_office/js/spin.min.js"
+
     output="bundles/app/front_office/js/index.js" %}
     {% include '@App/components/twig_js_asset.html.twig' %}
     {% endjavascripts %}
-{% endblock %} #}
+{% endblock %}
 
 </body>
 </html>

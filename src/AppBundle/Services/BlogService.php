@@ -31,4 +31,15 @@ class BlogService extends AppService
     $this->getEntityManager()->persist($blog);
     $this->getEntityManager()->flush();
   }
+
+  public function remove($id)
+  {
+    $criteria = array(
+      'id' => $id
+    );
+
+    $document = $this->findOneByCriteria($criteria);
+    $this->getEntityManager()->remove($document);
+    $this->getEntityManager()->flush();
+  }
 }

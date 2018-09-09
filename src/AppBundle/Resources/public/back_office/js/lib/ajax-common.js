@@ -7,16 +7,16 @@ AjaxCommon = {
             data: data,
             async : async,
             beforeSend : function() {
-                $.blockUI();
+                // $.blockUI();
             },
             complete: function () {
-                $.unblockUI();
+                // $.unblockUI();
             },
             success: function (result) {
                 callback(result);
             },
             error: function () {
-                $.unblockUI();
+                // $.unblockUI();
                 if(typeof errorCallback != 'undefined') {
                     errorCallback();
                 }
@@ -30,16 +30,16 @@ AjaxCommon = {
             type: 'POST',
             data: data,
             beforeSend : function() {
-                $.blockUI();
+                // $.blockUI();
             },
             complete: function () {
-                $.unblockUI();
+                // $.unblockUI();
             },
             success: function (result) {
                 callback(result);
             },
             error: function () {
-                $.unblockUI();
+                // $.unblockUI();
                 if(typeof errorCallback != 'undefined') {
                     errorCallback();
                 }
@@ -53,16 +53,16 @@ AjaxCommon = {
             type: 'PATCH',
             data: data,
             beforeSend : function() {
-                $.blockUI();
+                // $.blockUI();
             },
             complete: function () {
-                $.unblockUI();
+                // $.unblockUI();
             },
             success: function (result) {
                 callback(result);
             },
             error: function () {
-                $.unblockUI();
+                // $.unblockUI();
                 if(typeof errorCallback != 'undefined') {
                     errorCallback();
                 }

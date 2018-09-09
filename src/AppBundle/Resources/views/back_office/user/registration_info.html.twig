@@ -16,36 +16,30 @@
 
 {% block content %}
     <div class="col-md-12 col-sm-12 col-xs-12">
-        {% include '@App/back_office/components/flash_bag.html.twig' with { flashes: app.flashes } %}
-
         <div class="x_panel">
-            <h2>LIST DOCUMENT</h2>
-            <a href="{{ path('admin_document_create') }}" class="btn btn-success btn-sm" style="float: right"><i
-                        class="fa fa-plus-circle"></i> Document</a>
+            <h2>LIST REGISTRATION INFO</h2>
 
             <div class="x_content">
                 <table id="datatable-buttons" class="table table-striped table-bordered">
                     <thead>
                     <tr>
-                        <th>Filename</th>
-                        <th>Category</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Note</th>
                         <th>Created Date</th>
-                        <th>Option</th>
                     </tr>
                     </thead>
                     <tbody>
 
-                    {% for document in documents %}
+                    {% for user in users %}
 
                         <tr>
-                            <td>{{ document.originalName }}</td>
-                            <td>{{ document.categoryId }}</td>
-                            <td>{{ document.createdOn | date('Y-m-d H:i:s') }}</td>
-
-                            <td>
-                                {% include '@App/back_office/components/preview_button.html.twig' with { prefix: '/uploads/document/' , 'link': document.publicLink } %}
-                                {% include '@App/back_office/components/delete_button.html.twig' with { id: document.id, record_name: document.originalName } %}
-                            </td>
+                            <td>{{ user.name }}</td>
+                            <td>{{ user.phone }}</td>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.note }}</td>
+                            <td>{{ user.createdOn | date('Y-m-d H:i:s') }}</td>
                         </tr>
 
                     {% endfor %}

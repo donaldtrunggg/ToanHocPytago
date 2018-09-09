@@ -8,10 +8,10 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  *
- * @ORM\Table(name="blog")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\BlogRepository")
+ * @ORM\Table(name="registration_info")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\RegistrationInfoRepository")
  */
-class Blog
+class RegistrationInfo
 {
   /**
    * @var int
@@ -25,30 +25,37 @@ class Blog
   /**
    * @var string
    *
-   * @ORM\Column(name="title", type="string", length=512)
+   * @ORM\Column(name="name", type="string", length=512)
    */
-  private $title;
+  private $name;
 
   /**
    * @var string
    *
-   * @ORM\Column(name="url", type="string", length=512)
+   * @ORM\Column(name="sdt", type="string", length=512)
    */
-  private $url;
+  private $sdt;
 
   /**
    * @var string
    *
-   * @ORM\Column(name="content", type="string", length=1024)
+   * @ORM\Column(name="email", type="string", length=1024)
    */
-  private $content;
+  private $email;
+
+  /**
+   * @var int
+   *
+   * @ORM\Column(name="categoryId", type="integer")
+   */
+  private $categoryId;
 
   /**
    * @var string
    *
-   * @ORM\Column(name="status", type="integer")
+   * @ORM\Column(name="note", type="string", length=1024)
    */
-  private $status;
+  private $note;
 
   /**
    * @var string
@@ -57,18 +64,10 @@ class Blog
    */
   private $createdOn;
 
-  /**
-   * @var string
-   *
-   * @ORM\Column(name="updatedOn", type="datetime")
-   */
-  private $updatedOn;
-
   public function __construct()
   {
     $currentDate = new \DateTime();
     $this->createdOn = $currentDate;
-    $this->updatedOn = $currentDate;
   }
 
   /**
@@ -90,33 +89,81 @@ class Blog
   /**
    * @return string
    */
-  public function getContent()
+  public function getName()
   {
-    return $this->content;
+    return $this->name;
   }
 
   /**
-   * @param string $content
+   * @param string $name
    */
-  public function setContent($content)
+  public function setName($name)
   {
-    $this->content = $content;
+    $this->name = $name;
   }
 
   /**
    * @return string
    */
-  public function getStatus()
+  public function getSdt()
   {
-    return $this->status;
+    return $this->sdt;
   }
 
   /**
-   * @param string $status
+   * @param string $sdt
    */
-  public function setStatus($status)
+  public function setSdt($sdt)
   {
-    $this->status = $status;
+    $this->sdt = $sdt;
+  }
+
+  /**
+   * @return string
+   */
+  public function getEmail()
+  {
+    return $this->email;
+  }
+
+  /**
+   * @param string $email
+   */
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+
+  /**
+   * @return int
+   */
+  public function getCategoryId()
+  {
+    return $this->categoryId;
+  }
+
+  /**
+   * @param int $categoryId
+   */
+  public function setCategoryId($categoryId)
+  {
+    $this->categoryId = $categoryId;
+  }
+
+  /**
+   * @return string
+   */
+  public function getNote()
+  {
+    return $this->note;
+  }
+
+  /**
+   * @param string $note
+   */
+  public function setNote($note)
+  {
+    $this->note = $note;
   }
 
   /**
@@ -134,53 +181,4 @@ class Blog
   {
     $this->createdOn = $createdOn;
   }
-
-  /**
-   * @return string
-   */
-  public function getUpdatedOn()
-  {
-    return $this->updatedOn;
-  }
-
-  /**
-   * @param string $updatedOn
-   */
-  public function setUpdatedOn($updatedOn)
-  {
-    $this->updatedOn = $updatedOn;
-  }
-
-  /**
-   * @return string
-   */
-  public function getTitle()
-  {
-    return $this->title;
-  }
-
-  /**
-   * @param string $title
-   */
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-
-  /**
-   * @return string
-   */
-  public function getUrl()
-  {
-    return $this->url;
-  }
-
-  /**
-   * @param string $url
-   */
-  public function setUrl($url)
-  {
-    $this->url = $url;
-  }
-
 }

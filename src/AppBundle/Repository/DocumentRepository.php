@@ -4,6 +4,6 @@ namespace AppBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
-class BlogRepository extends EntityRepository {
+class DocumentRepository extends EntityRepository {
 
 }

@@ -2,33 +2,48 @@
 
 namespace AppBundle\Services;
 
-use AppBundle\Entity\Blog;
+use AppBundle\Entity\Document;
 
-class BlogService extends AppService
+class DocumentService extends AppService
 {
   public function findByCriteria($criteria = [])
   {
-    $blogRepo = $this->getEntityManager()->getRepository(Blog::class);
-    return $blogRepo->findBy($criteria);
+    $documentRepo = $this->getEntityManager()->getRepository(Document::class);
+    return $documentRepo->findBy($criteria);
   }
 
   public function findOneByCriteria($criteria)
   {
-    $blogRepo = $this->getEntityManager()->getRepository(Blog::class);
-    return $blogRepo->findOneBy($criteria);
+    $documentRepo = $this->getEntityManager()->getRepository(Document::class);
+    return $documentRepo->findOneBy($criteria);
   }
 
-  public function insert(Blog $blog)
+  public function insert(Document $document)
   {
-    $this->getEntityManager()->persist($blog);
+    $file = $document->getPublicLink();
+    $fileName = $this->generateUniqueFileName() . '.' . $file->guessExtension();
+    $originalName = $document->getPublicLink()->getClientOriginalName();
+
+    $file->move(
+      $this->getContainer()->getParameter('document_directory'),
+      $fileName
+    );
+
+    $document->setOriginalName($originalName);
+    $document->setPublicLink($fileName);
+
+    $this->getEntityManager()->persist($document);
     $this->getEntityManager()->flush();
   }
 
-  public function update(Blog $blog)
+  public function remove($id)
   {
-    $blog->setUpdatedOn(new \DateTime());
+    $criteria = array(
+      'id' => $id
+    );
 
-    $this->getEntityManager()->persist($blog);
+    $document = $this->findOneByCriteria($criteria);
+    $this->getEntityManager()->remove($document);
     $this->getEntityManager()->flush();
   }
 }

@@ -2,32 +2,24 @@
 
 namespace AppBundle\Services;
 
-use AppBundle\Entity\Blog;
+use AppBundle\Entity\RegistrationInfo;
 
-class BlogService extends AppService
+class RegistrationInfoService extends AppService
 {
   public function findByCriteria($criteria = [])
   {
-    $blogRepo = $this->getEntityManager()->getRepository(Blog::class);
-    return $blogRepo->findBy($criteria);
+    $registrationInfoRepo = $this->getEntityManager()->getRepository(RegistrationInfo::class);
+    return $registrationInfoRepo->findBy($criteria);
   }
 
   public function findOneByCriteria($criteria)
   {
-    $blogRepo = $this->getEntityManager()->getRepository(Blog::class);
-    return $blogRepo->findOneBy($criteria);
+    $registrationInfoRepo = $this->getEntityManager()->getRepository(RegistrationInfo::class);
+    return $registrationInfoRepo->findOneBy($criteria);
   }
 
-  public function insert(Blog $blog)
+  public function insert(RegistrationInfo $blog)
   {
-    $this->getEntityManager()->persist($blog);
-    $this->getEntityManager()->flush();
-  }
-
-  public function update(Blog $blog)
-  {
-    $blog->setUpdatedOn(new \DateTime());
-
     $this->getEntityManager()->persist($blog);
     $this->getEntityManager()->flush();
   }

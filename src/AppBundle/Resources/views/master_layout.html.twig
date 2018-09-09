@@ -29,43 +29,68 @@
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-            <link href="bundles/app/front_office/css/2835-layout.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/bookly-main.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/bootstrap.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/customer_profile.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/default.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ecwd_popup.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/font-awesome.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/hg-mailchimp.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/intlTelInput.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/kl-bookly.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/kl-calendar.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ladda.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/ladda2.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic.date.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/picker.classic2.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/plhg-styles.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/print.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style2.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/style3.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/styles.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/zn_dynamic.css" rel="stylesheet">
-            <link href="bundles/app/front_office/css/znb_frontend.css" rel="stylesheet">
-{#           
-    {% block stylesheets %}
-      {% stylesheets filter="scssphp"
-      "@AppBundle/Resources/public/front_office/css/index.css"
-        output="bundles/app/front_office/css/index.css" %}
-        {% include '@App/components/twig_css_asset.html.twig' %}
-        {% endstylesheets %}
-    {% endblock %} #}
+    <link href="bundles/app/front_office/css/2835-layout.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/bookly-main.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/customer_profile.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/default.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/ecwd_popup.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/font-awesome.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/hg-mailchimp.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/intlTelInput.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/kl-bookly.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/kl-calendar.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/ladda.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/ladda2.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/picker.classic.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/picker.classic.date.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/picker.classic2.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/plhg-styles.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/print.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/style.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/style2.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/style3.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/styles.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/template.min.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/zn_dynamic.css" rel="stylesheet">
+    <link href="bundles/app/front_office/css/znb_frontend.css" rel="stylesheet">
+
+    {#{% block stylesheets %}#}
+        {#{% stylesheets filter="scssphp"#}
+        {#"@AppBundle/Resources/public/front_office/css/2835-layout.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/template.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/bookly-main.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/bootstrap.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/customer_profile.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/default.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/ecwd_popup.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/font-awesome.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/hg-mailchimp.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/intlTelInput.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/kl-bookly.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/kl-calendar.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/ladda.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/ladda2.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/picker.classic.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/picker.classic2.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/plhg-styles.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/print.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/style.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/style2.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/style3.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/styles.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/template.min.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/zn_dynamic.css"#}
+        {#"@AppBundle/Resources/public/front_office/css/znb_frontend.css"#}
+
+        {#output="bundles/app/front_office/css/index.css" %}#}
+        {#{% include '@App/components/twig_css_asset.html.twig' %}#}
+        {#{% endstylesheets %}#}
+    {#{% endblock %}#}
 
     <script>
-        {% block javascript_global_setting %} 
+        {% block javascript_global_setting %}
 
         {% endblock %}
     </script>
@@ -88,28 +113,39 @@
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<script src="bundles/app/front_office/js/bookly.js"></script>
-<script src="bundles/app/front_office/js/customer_profile.js"></script>
-<script src="bundles/app/front_office/js/hammer.min.js"></script>
-<script src="bundles/app/front_office/js/index.js"></script>
-<script src="bundles/app/front_office/js/intlTelInput.min.js"></script>
-<script src="bundles/app/front_office/js/jquery-migrate.min.js"></script>
-<script src="bundles/app/front_office/js/jquery.hammer.min.js"></script>
-<script src="bundles/app/front_office/js/jquery.js"></script>
-<script src="bundles/app/front_office/js/ladda.min.js"></script>
+{#<script src="bundles/app/front_office/js/bookly.js"></script>#}
+{#<script src="bundles/app/front_office/js/customer_profile.js"></script>#}
+{#<script src="bundles/app/front_office/js/hammer.min.js"></script>#}
+{#<script src="bundles/app/front_office/js/index.js"></script>#}
+{#<script src="bundles/app/front_office/js/intlTelInput.min.js"></script>#}
+{#<script src="bundles/app/front_office/js/jquery-migrate.min.js"></script>#}
+{#<script src="bundles/app/front_office/js/jquery.hammer.min.js"></script>#}
+{#<script src="bundles/app/front_office/js/jquery.js"></script>#}
+{#<script src="bundles/app/front_office/js/ladda.min.js"></script>#}
 {# <script src="bundles/app/front_office/js/picker.date.js"></script> #}
 {# <script src="bundles/app/front_office/js/picker.js"></script> #}
-<script src="bundles/app/front_office/js/script.js"></script>
-<script src="bundles/app/front_office/js/spin.min.js"></script>
+{#<script src="bundles/app/front_office/js/script.js"></script>#}
+{#<script src="bundles/app/front_office/js/spin.min.js"></script>#}
 {# ?s #}
 
-{# {% block javascripts %}
-{% javascripts filter="?jsqueeze"
-   
+{% block javascripts %}
+    {% javascripts filter="?jsqueeze"
+    "@AppBundle/Resources/public/front_office/js/bookly.js"
+    "@AppBundle/Resources/public/front_office/js/customer_profile.js"
+    "@AppBundle/Resources/public/front_office/js/hammer.min.js"
+    "@AppBundle/Resources/public/front_office/js/index.js"
+    "@AppBundle/Resources/public/front_office/js/intlTelInput.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery-migrate.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery.hammer.min.js"
+    "@AppBundle/Resources/public/front_office/js/jquery.js"
+    "@AppBundle/Resources/public/front_office/js/ladda.min.js"
+    "@AppBundle/Resources/public/front_office/js/script.js"
+    "@AppBundle/Resources/public/front_office/js/spin.min.js"
+
     output="bundles/app/front_office/js/index.js" %}
     {% include '@App/components/twig_js_asset.html.twig' %}
     {% endjavascripts %}
-{% endblock %} #}
+{% endblock %}
 
 </body>
 </html>

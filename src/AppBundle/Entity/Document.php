@@ -5,13 +5,14 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping\OneToOne;
 use Doctrine\ORM\Mapping\JoinColumn;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  *
- * @ORM\Table(name="blog")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\BlogRepository")
+ * @ORM\Table(name="document")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\DocumentRepository")
  */
-class Blog
+class Document
 {
   /**
    * @var int
@@ -23,32 +24,26 @@ class Blog
   private $id;
 
   /**
-   * @var string
+   * @var int
    *
-   * @ORM\Column(name="title", type="string", length=512)
+   * @ORM\Column(name="categoryId", type="integer")
    */
-  private $title;
+  private $categoryId;
 
   /**
    * @var string
    *
-   * @ORM\Column(name="url", type="string", length=512)
+   * @ORM\Column(name="publicLink", type="string", length=512)
+   * @Assert\NotBlank(message="Please, upload the file as a PDF file.")
    */
-  private $url;
+  private $publicLink;
 
   /**
    * @var string
    *
-   * @ORM\Column(name="content", type="string", length=1024)
+   * @ORM\Column(name="originalName", type="string")
    */
-  private $content;
-
-  /**
-   * @var string
-   *
-   * @ORM\Column(name="status", type="integer")
-   */
-  private $status;
+  private $originalName;
 
   /**
    * @var string
@@ -57,18 +52,10 @@ class Blog
    */
   private $createdOn;
 
-  /**
-   * @var string
-   *
-   * @ORM\Column(name="updatedOn", type="datetime")
-   */
-  private $updatedOn;
-
   public function __construct()
   {
     $currentDate = new \DateTime();
     $this->createdOn = $currentDate;
-    $this->updatedOn = $currentDate;
   }
 
   /**
@@ -88,35 +75,51 @@ class Blog
   }
 
   /**
+   * @return int
+   */
+  public function getCategoryId()
+  {
+    return $this->categoryId;
+  }
+
+  /**
+   * @param int $categoryId
+   */
+  public function setCategoryId($categoryId)
+  {
+    $this->categoryId = $categoryId;
+  }
+
+  /**
    * @return string
    */
-  public function getContent()
+  public function getPublicLink()
   {
-    return $this->content;
+    return $this->publicLink;
   }
 
   /**
-   * @param string $content
+   * @param string $publicLink
    */
-  public function setContent($content)
+  public function setPublicLink($publicLink)
   {
-    $this->content = $content;
+    $this->publicLink = $publicLink;
   }
 
   /**
    * @return string
    */
-  public function getStatus()
+  public function getOriginalName()
   {
-    return $this->status;
+    return $this->originalName;
   }
 
   /**
-   * @param string $status
+   * @param string $originalName
    */
-  public function setStatus($status)
+  public function setOriginalName($originalName)
   {
-    $this->status = $status;
+    $this->originalName = $originalName;
   }
 
   /**
@@ -134,53 +137,4 @@ class Blog
   {
     $this->createdOn = $createdOn;
   }
-
-  /**
-   * @return string
-   */
-  public function getUpdatedOn()
-  {
-    return $this->updatedOn;
-  }
-
-  /**
-   * @param string $updatedOn
-   */
-  public function setUpdatedOn($updatedOn)
-  {
-    $this->updatedOn = $updatedOn;
-  }
-
-  /**
-   * @return string
-   */
-  public function getTitle()
-  {
-    return $this->title;
-  }
-
-  /**
-   * @param string $title
-   */
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-
-  /**
-   * @return string
-   */
-  public function getUrl()
-  {
-    return $this->url;
-  }
-
-  /**
-   * @param string $url
-   */
-  public function setUrl($url)
-  {
-    $this->url = $url;
-  }
-
 }

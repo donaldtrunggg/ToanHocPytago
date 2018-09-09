@@ -56,7 +56,9 @@
 <body class="{% block body_class %}{% endblock %}" {% block body_attr %}{% endblock %}>
 
 {% block body %}{% endblock %}
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 {% block javascripts %}
@@ -85,6 +87,7 @@
     "@AppBundle/Resources/public/back_office/vendors/moment/min/moment.min.js"
     "@AppBundle/Resources/public/back_office/vendors/bootstrap-daterangepicker/daterangepicker.js"
     "@AppBundle/Resources/public/back_office/js/lib/custom.min.js"
+    "@AppBundle/Resources/public/back_office/js/lib/ajax-common.js"
 
     output="bundles/app/back_office/js/custom_admin.js" %}
     {% include '@App/components/twig_js_asset.html.twig' %}

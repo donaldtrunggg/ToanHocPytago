@@ -24,15 +24,20 @@
         <div class="menu_section">
             <h3>General</h3>
             <ul class="nav side-menu">
+                <li><a><i class="fa fa-sitemap"></i> User <span
+                                class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{{ path('admin_user_register_list') }}">Registration Info</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <li><a><i class="fa fa-sitemap"></i> Management <span
                                 class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="{{ path('admin_blog_list') }}">Blog</a>
                         </li>
-                    </ul>
-
-                    <ul class="nav child_menu">
-                        <li><a href="{{ path('admin_blog_list') }}"> </a>
+                        <li><a href="{{ path('admin_document_list') }}">Document</a>
                         </li>
                     </ul>
                 </li>

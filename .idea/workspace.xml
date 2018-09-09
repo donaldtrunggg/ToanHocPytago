@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e6b965-bfea-41a9-884b-836fbf4a8dc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="$PROJECT_DIR$/web/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Document.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Document.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/RegistrationInfo.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/RegistrationInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Form/DocumentType.php" afterPath="$PROJECT_DIR$/src/AppBundle/Form/DocumentType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/DocumentRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/DocumentRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/RegistrationInfoRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/RegistrationInfoRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/ajax-common.js" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/ajax-common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/delete_button.js" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/delete_button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/blog/index.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/blog/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/components/preview_button.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/components/preview_button.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/document/create.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/document/create.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/document/index.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/document/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/master_layout.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/master_layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/sidebar.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/sidebar.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/user/registration_info.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/user/registration_info.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Services/AppService.php" afterPath="$PROJECT_DIR$/src/AppBundle/Services/AppService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Services/BlogService.php" afterPath="$PROJECT_DIR$/src/AppBundle/Services/BlogService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Services/DocumentService.php" afterPath="$PROJECT_DIR$/src/AppBundle/Services/DocumentService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Services/RegistrationInfoService.php" afterPath="$PROJECT_DIR$/src/AppBundle/Services/RegistrationInfoService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Util/ServiceUtil.php" afterPath="$PROJECT_DIR$/src/AppBundle/Util/ServiceUtil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app.php" afterPath="$PROJECT_DIR$/web/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="$PROJECT_DIR$/web/robots.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,12 +75,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-                  <folding />
+                  <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+                  <folding>
+                    <marker date="1536472677000" expanded="true" signature="107:153" ph="{% block body_class ...%}" />
+                    <marker date="1536472677000" expanded="true" signature="155:187" ph="{% block body ...%}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -120,16 +93,27 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <marker date="1536472677000" expanded="true" signature="5810:5826" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5843" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5861" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5906" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5919" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5931" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5969" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:5979" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:6019" ph="..." />
+                    <marker date="1536472677000" expanded="true" signature="5810:6062" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="master_layout.html.twig" pinned="false" current-in-tab="false">
+          <file leaf-file-name="master_layout.html.twig" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-382">
-                  <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+                <state relative-caret-position="235">
+                  <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -163,7 +147,7 @@
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1285">
-                  <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+                  <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
                   <folding>
                     <element signature="e#46#74#0#PHP" expanded="true" />
                   </folding>
@@ -297,7 +281,6 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/front_office/css/index.css" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/header.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/index.html.twig" />
@@ -339,6 +322,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" />
       </list>
     </option>
@@ -679,26 +663,25 @@
       <workItem from="1535252048759" duration="11156000" />
       <workItem from="1535295094599" duration="1161000" />
       <workItem from="1535337717211" duration="48000" />
-      <workItem from="1536471102037" duration="523000" />
+      <workItem from="1536471102037" duration="751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44385000" />
+    <option name="totallyTimeSpent" value="44613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103785105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16117217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1055,7 +1038,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1285">
-          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+          <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
@@ -1074,22 +1057,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding />
+          <folding>
+            <marker date="1536472677000" expanded="true" signature="5810:5826" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5843" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5861" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5906" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5919" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5931" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5969" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:5979" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:6019" ph="..." />
+            <marker date="1536472677000" expanded="true" signature="5810:6062" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <marker date="1536472677000" expanded="true" signature="107:153" ph="{% block body_class ...%}" />
+            <marker date="1536472677000" expanded="true" signature="155:187" ph="{% block body ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>

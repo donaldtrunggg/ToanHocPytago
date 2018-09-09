@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e6b965-bfea-41a9-884b-836fbf4a8dc4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/login.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +30,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="sidebar.html.twig" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/sidebar.html.twig">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="delete_button.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/delete_button.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -48,8 +43,8 @@
           <file leaf-file-name="master_layout.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/master_layout.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -78,12 +73,19 @@
           <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-                  <folding>
-                    <marker date="1536472677000" expanded="true" signature="107:153" ph="{% block body_class ...%}" />
-                    <marker date="1536472677000" expanded="true" signature="155:187" ph="{% block body ...%}" />
-                  </folding>
+                <state relative-caret-position="390">
+                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="security.yml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -109,11 +111,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="master_layout.html.twig" pinned="false" current-in-tab="true">
+          <file leaf-file-name="master_layout.html.twig" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+                <state relative-caret-position="455">
+                  <caret line="47" column="87" lean-forward="false" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
                   <folding />
                 </state>
               </provider>
@@ -122,8 +124,8 @@
           <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AppController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+                <state relative-caret-position="270">
+                  <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -146,8 +148,8 @@
           <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1285">
-                  <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+                <state relative-caret-position="173">
+                  <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
                   <folding>
                     <element signature="e#46#74#0#PHP" expanded="true" />
                   </folding>
@@ -155,11 +157,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlogService.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/AppBundle/Services/BlogService.php">
+          <file leaf-file-name="admin_layout.html.twig" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/admin_layout.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/index.html.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="743" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -237,8 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stylesheets</find>
-      <find>.idea/workspace.xml</find>
       <find>symfony/asset</find>
       <find>twi</find>
       <find>assetic</find>
@@ -266,6 +276,9 @@
       <find>documents</find>
       <find>link</find>
       <find>blockUI</find>
+      <find>main.css</find>
+      <find>loginAction</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -319,11 +332,13 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/public/back_office/js/lib/delete_button.js" />
         <option value="$PROJECT_DIR$/src/AppBundle/Services/DocumentService.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Services/BlogService.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
       </list>
     </option>
   </component>
@@ -401,8 +416,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -577,7 +593,26 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front_office" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ToanHocPytago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToanHocPytago" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ToanHocPytago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToanHocPytago" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="back_office" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ToanHocPytago" type="b2602c69:ProjectViewProjectNode" />
@@ -607,7 +642,7 @@
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Appc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/AppController.php&#10;con&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config.yml&#10;index&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;blog/inde&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;blog&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/BlogService.php&#10;doc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/DocumentService.php&#10;admin&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;ad&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;master&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/master_layout.html.twig&#10;docum&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Form/DocumentType.php&#10;re&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/RegistrationInfoService.php&#10;AD&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;Ap&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;side&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/partials/sidebar.html.twig&#10;a&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;serv&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/config/services.yml&#10;master_layout&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/master_layout.html.twig&#10;admin_layout&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/partials/admin_layout.html.twig&#10;4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/public/uploads/document/4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#10;4f76a4bf5b77388d6b436a4b00b6f9dc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/public/uploads/document/4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#10;service&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/config/services.yml&#10;cre&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;blogs&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/BlogService.php&#10;inde&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;c&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;crete&#9;null&#9;null&#10;cus&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/public/back_office/js/lib/custom.min.js&#10;blo&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Entity/Blog.php&#10;create&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;Adm&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;conf&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config_dev.yml&#10;compo&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/composer.json&#10;app&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/AppKernel.php&#10;compos&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/composer.json&#10;ADmin&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;Ser&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Util/ServiceUtil.php&#10;mas&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/master_layout.html.twig&#10;App&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/AppController.php&#10;git&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/.gitignore&#10;confi&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config.yml&#10;appke&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="master_layout&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/master_layout.html.twig&#10;appc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/AppController.php&#10;Appc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/AppController.php&#10;con&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config.yml&#10;index&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;blog/inde&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;blog&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/BlogService.php&#10;doc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/DocumentService.php&#10;admin&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;ad&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;master&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/master_layout.html.twig&#10;docum&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Form/DocumentType.php&#10;re&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/RegistrationInfoService.php&#10;AD&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;Ap&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;side&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/partials/sidebar.html.twig&#10;a&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;serv&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/config/services.yml&#10;admin_layout&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/partials/admin_layout.html.twig&#10;4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/public/uploads/document/4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#10;4f76a4bf5b77388d6b436a4b00b6f9dc&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/public/uploads/document/4f76a4bf5b77388d6b436a4b00b6f9dc.pdf&#10;service&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/config/services.yml&#10;cre&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;blogs&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Services/BlogService.php&#10;inde&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/index.html.twig&#10;c&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;crete&#9;null&#9;null&#10;cus&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/public/back_office/js/lib/custom.min.js&#10;blo&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Entity/Blog.php&#10;create&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/blog/create.html.twig&#10;Adm&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;conf&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config_dev.yml&#10;compo&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/composer.json&#10;app&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/AppKernel.php&#10;compos&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/composer.json&#10;ADmin&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/Admin/AdminController.php&#10;Ser&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Util/ServiceUtil.php&#10;mas&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Resources/views/back_office/master_layout.html.twig&#10;App&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/src/AppBundle/Controller/AppController.php&#10;git&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/.gitignore&#10;confi&#9;FILE&#9;file:///Users/trungnh/webroot/outsource/ToanHocPytago/app/config/config.yml&#10;appke&#9;null&#9;null" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -663,25 +698,27 @@
       <workItem from="1535252048759" duration="11156000" />
       <workItem from="1535295094599" duration="1161000" />
       <workItem from="1535337717211" duration="48000" />
-      <workItem from="1536471102037" duration="751000" />
+      <workItem from="1536471102037" duration="4064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44613000" />
+    <option name="totallyTimeSpent" value="47926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16117217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -689,7 +726,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -704,27 +740,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/BlogRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/DependencyInjection/AppExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -854,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/admin_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -949,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/master_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1035,24 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1285">
-          <caret line="92" column="28" lean-forward="false" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/partials/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1072,22 +1054,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <marker date="1536472677000" expanded="true" signature="107:153" ph="{% block body_class ...%}" />
-            <marker date="1536472677000" expanded="true" signature="155:187" ph="{% block body ...%}" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/master_layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="47" column="87" lean-forward="false" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/front_office/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="743" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/partials/admin_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/master_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/back_office/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

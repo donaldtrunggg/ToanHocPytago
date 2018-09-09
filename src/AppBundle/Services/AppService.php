@@ -70,4 +70,12 @@ class AppService
   {
     return $this->logger;
   }
+
+  /**
+   * @return string
+   */
+  protected function generateUniqueFileName()
+  {
+    return md5(uniqid());
+  }
 }

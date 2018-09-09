@@ -9,10 +9,18 @@
 {% block body_class %}is-preload{% endblock %}
 
 {% block body %}
-
+    {% include '@App/front_office/partials/header2.html.twig' %}
+    {% include '@App/front_office/partials/content.html.twig' %}
+    {% include '@App/front_office/partials/footer2.html.twig' %}
 {% endblock %}
 
 {% block javascripts %}
     {{ parent() }}
 
+
+    <script src="bundles/app/front_office/js/jquery.min.js"></script>
+    <script src="bundles/app/front_office/js/browser.min.js"></script>
+    <script src="bundles/app/front_office/js/breakpoints.min.js"></script>
+    <script src="bundles/app/front_office/js/util.js"></script>
+    <script src="bundles/app/front_office/js/main.js"></script>
 {% endblock %}

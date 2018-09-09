@@ -53,8 +53,32 @@
     {% endblock %}
 
 </head>
-<body class="{% block body_class %}{% endblock %}" {% block body_attr %}{% endblock %}>
+<body class="login">
+<div>
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
 
+    <div class="login_wrapper">
+        <div class="animate form login_form">
+            <section class="login_content">
+                <form action="{{ path('admin_login') }}" method="post">
+                    <h1>Login Form</h1>
+                    <div>
+                        <input type="text" id="username" name="_username" class="form-control" placeholder="Username" required="" />
+                    </div>
+                    <div>
+                        <input type="password"  id="password" name="_password" class="form-control" placeholder="Password" required="" />
+                    </div>
+
+                    <button type="submit">login</button>
+                    {#<div>#}
+                        {#<a class="btn btn-default submit" href="index.html">Log in</a>#}
+                    {#</div>#}
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
 {% block body %}{% endblock %}
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>

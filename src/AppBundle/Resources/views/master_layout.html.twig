@@ -26,7 +26,7 @@
 
             <link href="bundles/app/front_office/css/font-awesome.min.css" rel="stylesheet">
             <link href="bundles/app/front_office/css/main.css" rel="stylesheet">
-{#           
+{#
     {% block stylesheets %}
       {% stylesheets filter="scssphp"
       "@AppBundle/Resources/public/front_office/css/index.css"
@@ -36,7 +36,7 @@
     {% endblock %} #}
 
     <script>
-        {% block javascript_global_setting %} 
+        {% block javascript_global_setting %}
 
         {% endblock %}
     </script>
@@ -46,25 +46,8 @@
 
 </head>
 <body class="{% block body_class %}{% endblock %}" {% block body_attr %}{% endblock %}>
-{% include '@App/front_office/partials/header2.html.twig' %}
-{% include '@App/front_office/partials/content.html.twig' %}
-{% include '@App/front_office/partials/footer2.html.twig' %}
 {% block body %}{% endblock %}
 
-<script src="bundles/app/front_office/js/jquery.min.js"></script>
-<script src="bundles/app/front_office/js/browser.min.js"></script>
-<script src="bundles/app/front_office/js/breakpoints.min.js"></script>
-<script src="bundles/app/front_office/js/util.js"></script>
-<script src="bundles/app/front_office/js/main.js"></script>
-{# ?s #}
-
-{# {% block javascripts %}
-{% javascripts filter="?jsqueeze"
-   
-    output="bundles/app/front_office/js/index.js" %}
-    {% include '@App/components/twig_js_asset.html.twig' %}
-    {% endjavascripts %}
-{% endblock %} #}
 
 </body>
 </html>

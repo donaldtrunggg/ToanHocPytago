@@ -8,3 +8,9 @@ services:
     blog.service:
         class: AppBundle\Services\BlogService
         autowire: true
+    document.service:
+        class: AppBundle\Services\DocumentService
+        autowire: true
+    registration_info.service:
+        class: AppBundle\Services\RegistrationInfoService
+        autowire: true

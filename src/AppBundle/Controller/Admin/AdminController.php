@@ -10,9 +10,18 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class AdminController extends Controller
 {
+  /**
+   * @Route("/login", name="admin_login")
+   */
+  public function loginAction(AuthenticationUtils $authenticationUtils)
+  {
+    return $this->render('@App/back_office/login.html.twig');
+  }
+
   /**
    * @Route("/admin", name="admin_homepage")
    */

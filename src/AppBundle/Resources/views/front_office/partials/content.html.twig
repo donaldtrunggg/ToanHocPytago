@@ -118,7 +118,42 @@
 <section class="wrapper">
     <div class="inner">
         <header class="special">
-            <h2>ĐĂNG KÝ HỌC</h2>    
+            <h2>ĐĂNG KÝ HỌC</h2>
         </header>
+        <form method="post" action="#">
+            <div class="row gtr-uniform">
+                <div class="col-4 col-12-xsmall">
+                    <input type="text" name="name" id="name" value="" placeholder="Họ tên" />
+                </div>
+                <div class="col-4 col-12-xsmall">
+                    <input type="text" name="name" id="name" value="" placeholder="Số điện thoại" />
+                </div>
+                <div class="col-4 col-12-xsmall">
+                    <input type="email" name="email" id="email" value="" placeholder="Email" />
+                </div>
+                <!-- Break -->
+                <div class="col-6 col-12-xsmall">
+                    <select name="category" id="category">
+                        <option value="">- Bạn muốn đăng ký lớp nào? -</option>
+                        <option value="math11">Math 11</option>
+                        <option value="math12">Math 12</option>
+                        <option value="extra">Bổ sung kiến thức</option>
+                    </select>
+                </div>
+                <div class="col-6 col-12-xsmall">
+                    <input type="text" name="name" id="name" value="" placeholder="Số lượng đăng ký" />
+                </div>
+                <div class="col-12">
+                    <textarea name="textarea" id="textarea" placeholder="Ghi chú" rows="6"></textarea>
+                </div>
+                <!-- Break -->
+                <div class="col-12">
+                    <ul class="actions">
+                        <li><input type="submit" value="Submit Form" class="primary" /></li>
+                        <li><input type="reset" value="Reset" /></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
